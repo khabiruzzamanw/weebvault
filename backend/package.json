@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "module": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "bun server.js",
+    "dev": "bun --watch server.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "dependencies": {
+    "hono": "^4.13.14",
+    "mongoose": "^9.11.4"
+  }
+}
